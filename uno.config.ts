@@ -1,6 +1,5 @@
 import {
   defineConfig,
-  presetAttributify,
   presetIcons,
   presetWebFonts,
   presetWind4,
@@ -13,7 +12,6 @@ export default defineConfig({
   ],
   presets: [
     presetWind4(),
-    presetAttributify(),
     presetIcons({
       scale: 1.2,
       warn: true,

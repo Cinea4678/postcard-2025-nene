@@ -1,9 +1,11 @@
-## Components
+# Components
 
-Components in this dir will be auto-registered and on-demand, powered by [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components).
+这个目录包含项目的 Vue 组件。
 
-### Icons
+## 自动导入
 
-You can use icons from almost any icon sets by the power of [Iconify](https://iconify.design/).
+组件会自动导入，无需手动 import。只需在模板中使用组件名称即可。
 
-It will only bundle the icons you use. Check out [`unplugin-icons`](https://github.com/antfu/unplugin-icons) for more details.
+## 组件列表
+
+- `TheFooter.vue` - 页脚组件，包含暗色模式切换功能

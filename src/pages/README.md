@@ -1,20 +1,12 @@
-## File-based Routing
+# Pages
 
-Routes will be auto-generated for Vue files in this dir with the same file structure.
-Check out [`unplugin-vue-router`](https://github.com/posva/unplugin-vue-router) for more details.
+这个目录包含项目的页面组件，基于文件系统的路由。
 
-### Path Aliasing
+## 路由规则
 
-`~/` is aliased to `./src/` folder.
+- `index.vue` - 首页 (`/`)
+- `[name].vue` - 动态路由页面 (`/:name`)
 
-For example, instead of having
+## 自动导入
 
-```ts
-import { isDark } from '../../../../composables'
-```
-
-now, you can use
-
-```ts
-import { isDark } from '~/composables'
-```
+页面会自动注册为路由，无需手动配置。
