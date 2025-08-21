@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "postcards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "imageUrl": {
+            "type": "string",
+            "description": "明信片的图片 URL"
+          },
+          "mode": {
+            "type": "string",
+            "enum": ["contain", "cover"],
+            "default": "cover",
+            "description": "图片的填充模式，默认为 cover"
+          },
+          "date": {
+            "type": "string",
+            "description": "图片的日期"
+          }
+        },
+        "required": ["imageUrl"]
+      }
+    }
+  }
+}

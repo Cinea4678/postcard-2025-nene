@@ -1,0 +1,81 @@
+{
+  "$schema": "postcard-set.schema.json",
+  "postcards": [
+    {
+      "imageUrl": "/pictures/01.jpeg",
+      "date": "2024.7"
+    },
+    {
+      "imageUrl": "/pictures/02.jpeg",
+      "date": "2024.6"
+    },
+    {
+      "imageUrl": "/pictures/03.jpg"
+    },
+    {
+      "imageUrl": "/pictures/04.jpg"
+    },
+    {
+      "imageUrl": "/pictures/05.jpg"
+    },
+    {
+      "imageUrl": "/pictures/06.jpg"
+    },
+    {
+      "imageUrl": "/pictures/07.jpg"
+    },
+    {
+      "imageUrl": "/pictures/08.jpg"
+    },
+    {
+      "imageUrl": "/pictures/09.jpg"
+    },
+    {
+      "imageUrl": "/pictures/10.jpg"
+    },
+    {
+      "imageUrl": "/pictures/11.jpg"
+    },
+    {
+      "imageUrl": "/pictures/12.jpg"
+    },
+    {
+      "imageUrl": "/pictures/13.jpg"
+    },
+    {
+      "imageUrl": "/pictures/14.jpeg"
+    },
+    {
+      "imageUrl": "/pictures/15.jpg"
+    },
+    {
+      "imageUrl": "/pictures/16.jpg"
+    },
+    {
+      "imageUrl": "/pictures/17.jpeg"
+    },
+    {
+      "imageUrl": "/pictures/18.jpg"
+    },
+    {
+      "imageUrl": "/pictures/19.jpeg"
+    },
+    {
+      "imageUrl": "/pictures/20.jpg",
+      "mode": "contain"
+    },
+    {
+      "imageUrl": "/pictures/21.jpg",
+      "mode": "contain"
+    },
+    {
+      "imageUrl": "/pictures/22.jpg"
+    },
+    {
+      "imageUrl": "/pictures/23.jpeg"
+    },
+    {
+      "imageUrl": "/pictures/24.jpeg"
+    }
+  ]
+}

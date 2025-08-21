@@ -2,7 +2,7 @@ import {
   defineConfig,
   presetIcons,
   presetWebFonts,
-  presetWind4,
+  presetWind3,
 } from 'unocss'
 
 export default defineConfig({
@@ -11,17 +11,29 @@ export default defineConfig({
     ['icon-btn', 'text-[0.9em] inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 hover:text-teal-600'],
   ],
   presets: [
-    presetWind4(),
+    presetWind3(),
     presetIcons({
       scale: 1.2,
       warn: true,
     }),
     presetWebFonts({
+      provider: 'google',
       fonts: {
         sans: 'DM Sans',
         serif: 'DM Serif Display',
         mono: 'DM Mono',
       },
     }),
+  ],
+  rules: [
+    [
+      /^(top|bottom|left|right)-bleeding-((\d|\.)+)$/,
+      ([, direction, d]) => {
+        const spacing = `${Number(d) / 4}rem`
+        return {
+          [`${direction}`]: `calc(2mm + ${spacing})`,
+        }
+      },
+    ],
   ],
 })
